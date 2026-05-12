@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Area N
 
-## Getting Started
+Landing comercial para Area N, empresa de domotica residencial en CABA y GBA.
 
-First, run the development server:
+## Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Resend para el formulario de contacto
+
+## Desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Variables de entorno
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Copiar `.env.example` a `.env.local` y completar:
 
-## Learn More
+```bash
+NEXT_PUBLIC_SITE_URL=https://area-n.com
+CONTACT_TO_EMAIL=area.n@gmail.com
+RESEND_API_KEY=
+RESEND_FROM_EMAIL=Area N <contacto@area-n.com>
+```
 
-To learn more about Next.js, take a look at the following resources:
+Para envio real de mails, `RESEND_FROM_EMAIL` debe usar un dominio verificado en Resend.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+npm run build
+```
 
-## Deploy on Vercel
+## Contacto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Web: https://area-n.com
+- Email: area.n@gmail.com
+- WhatsApp: +54 9 11 2835-1181
