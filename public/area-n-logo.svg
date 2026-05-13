@@ -1,16 +1,13 @@
 <svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="1" y="1" width="62" height="62" rx="14" fill="url(#paint0_linear)"/>
-  <rect x="1" y="1" width="62" height="62" rx="14" stroke="#7EE7C5" stroke-opacity="0.28"/>
-  <path d="M18 43.5V20.5C18 17.5 20.5 15 23.5 15H26.5C28.4 15 30.2 15.9 31.3 17.5L46 38.7V20.5C46 17.5 48.5 15 51.5 15H53" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 43.5H15.5" stroke="white" stroke-width="7" stroke-linecap="round"/>
-  <circle cx="49" cy="45" r="3" fill="#6EE7F9"/>
-  <path d="M50.8 42.6L55 37.8" stroke="#6EE7F9" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="url(#paint0_linear)"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" stroke="white" stroke-opacity="0.08"/>
+  <path d="M17 45H23.5C26.4 45 28.8 42.6 28.8 39.7V18.2L47 44.4V27C47 21.9 51.1 17.8 56.2 17.8H58" stroke="white" stroke-width="8.8" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M78 20.8H89.2L101.5 48H93.5L91.2 42.5H76L73.8 48H66.1L78 20.8ZM78.4 36.7H88.8L83.6 24.5L78.4 36.7ZM105.1 27.1H111.9V31.2C113.1 28.5 115.2 26.8 118.4 26.8C119.3 26.8 120.1 26.9 120.8 27.1V33.6C119.8 33.4 118.7 33.3 117.7 33.3C114 33.3 112.1 35.3 112.1 39.1V48H105.1V27.1ZM133.4 48.5C126.8 48.5 122.3 44.2 122.3 37.6C122.3 31.1 126.8 26.6 133.1 26.6C139.4 26.6 143.4 30.8 143.4 37.1C143.4 37.9 143.4 38.7 143.3 39.4H129.1C129.7 42 131.4 43.2 133.8 43.2C135.8 43.2 137.2 42.5 138 41.1H143C141.8 45.5 138.2 48.5 133.4 48.5ZM129.1 35.4H136.8C136.5 33.1 135.1 31.8 133 31.8C130.9 31.8 129.5 33 129.1 35.4ZM157 48.5C150.8 48.5 146.5 44 146.5 37.6C146.5 31.1 150.9 26.6 156.6 26.6C159.5 26.6 161.8 27.8 163.2 29.8V27.1H170V48H163.2V45.1C161.8 47.2 159.6 48.5 157 48.5ZM158.5 42.7C161.3 42.7 163.3 40.6 163.3 37.6C163.3 34.6 161.3 32.4 158.5 32.4C155.7 32.4 153.7 34.6 153.7 37.6C153.7 40.6 155.7 42.7 158.5 42.7ZM181.2 20.8H189.2L201.8 36.7V20.8H209V48H202.3L188.4 30.7V48H181.2V20.8Z" fill="white"/>
   <defs>
     <linearGradient id="paint0_linear" x1="6" y1="5" x2="58" y2="61" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0E7D55"/>
-      <stop offset="0.45" stop-color="#075B43"/>
-      <stop offset="1" stop-color="#042E2C"/>
+      <stop stop-color="#0D8457"/>
+      <stop offset="0.48" stop-color="#076C4A"/>
+      <stop offset="1" stop-color="#054832"/>
     </linearGradient>
   </defs>
 </svg>

@@ -34,11 +34,23 @@ export default function Image() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: 54,
-              fontWeight: 700,
             }}
           >
-            N
+            <svg
+              width="70"
+              height="70"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 45H23.5C26.4 45 28.8 42.6 28.8 39.7V18.2L47 44.4V27C47 21.9 51.1 17.8 56.2 17.8H58"
+                stroke="white"
+                strokeWidth="8.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
           </div>
           <div style={{ fontSize: 42, fontWeight: 700 }}>{siteConfig.name}</div>
         </div>
