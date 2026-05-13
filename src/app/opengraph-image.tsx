@@ -44,7 +44,7 @@ export default function Image() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M17 45H23.5C26.4 45 28.8 42.6 28.8 39.7V18.2L47 44.4V27C47 21.9 51.1 17.8 56.2 17.8H58"
+                d="M12.5 45H19C21.9 45 24.3 42.6 24.3 39.7V18.2L43.1 45V27C43.1 21.9 47.2 17.8 52.3 17.8H53.8"
                 stroke="white"
                 strokeWidth="8.8"
                 strokeLinecap="round"
