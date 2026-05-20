@@ -167,6 +167,11 @@ export const processSteps = [
     description:
       "Te enseñamos a aprovechar todo el potencial del sistema y te brindamos soporte para que estés siempre tranquilo.",
   },
+  {
+    title: "5. Evolución",
+    description:
+      "Al ser un sistema escalable, dejamos la vivienda preparada para sumar nuevas tecnologías o ambientes en el futuro sin rehacer nada.",
+  },
 ];
 
 export const faqItems = [
