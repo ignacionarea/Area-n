@@ -55,234 +55,209 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    title: "Iluminacion inteligente",
+    title: "Iluminación Inteligente",
     description:
-      "Escenas para noche, cine, llegada, descanso o seguridad, con control desde app, pulsadores o voz.",
+      "Programá las luces para ahorrar energía y tener siempre el ambiente perfecto sin tocar una tecla.",
     icon: Lightbulb,
   },
   {
-    title: "Seguridad y monitoreo",
+    title: "Seguridad y Tranquilidad",
     description:
-      "Camaras, sensores, alarmas, cerraduras y avisos pensados para casas, PH y departamentos.",
+      "Cuidá a tu familia y tu casa con sistemas que te avisan al instante estés donde estés.",
     icon: ShieldCheck,
   },
   {
-    title: "Climatizacion y confort",
+    title: "Climatización Automática",
     description:
-      "Automatizacion de aire, calefaccion, ventilacion y rutinas para mejorar consumo y comodidad.",
+      "Olvidate de pasar frío o calor. Tu casa mantiene la temperatura ideal sola, para que vivas mejor y pagues menos luz.",
     icon: Fan,
   },
   {
-    title: "Cortinas, portones y accesos",
+    title: "Vivienda Integrada",
     description:
-      "Control de persianas, cortinas, portones, puertas y accesos segun la instalacion existente.",
-    icon: Blinds,
+      "Convertimos cualquier vivienda en un hogar inteligente, sin necesidad de romper toda la casa.",
+    icon: Router,
   },
   {
-    title: "Tableros e instalacion electrica",
+    title: "Instalación Premium",
     description:
-      "Revision, cableado, protecciones, modulos y tableros con criterio profesional de electricidad.",
+      "Modernizamos tu tablero con estándares arquitectónicos para que todo funcione sin cortes ni riesgos.",
     icon: Cable,
   },
   {
-    title: "Integraciones a medida",
+    title: "Reducción de Consumos",
     description:
-      "Paneles, asistentes de voz, sensores, riego, exteriores y sistemas compatibles con cada proyecto.",
-    icon: Router,
+      "Reducí el gasto de agua y luz automatizando el riego y aprovechando al máximo la iluminación natural.",
+    icon: Sprout,
   },
 ];
 
 export const benefits = [
   {
-    title: "Sin obra innecesaria",
+    title: "Pagá menos todos los meses",
     description:
-      "Primero se releva la instalacion y se define la forma mas limpia de automatizar.",
+      "Unimos diseño térmico y automatización para reducir drásticamente el costo de climatización y energía.",
+    icon: Zap,
+  },
+  {
+    title: "Sin romper toda tu casa",
+    description:
+      "Integramos la tecnología sobre la instalación existente siempre que sea posible, minimizando obra y molestias.",
     icon: Home,
   },
   {
-    title: "Control simple",
+    title: "Confort y status",
     description:
-      "App, pulsadores, voz o escenas programadas. La casa queda facil de usar para todos.",
+      "Disfrutá del placer de vivir en un hogar moderno que responde a tus rutinas y deslumbra a las visitas.",
     icon: Smartphone,
   },
   {
-    title: "Mas seguridad",
+    title: "Tranquilidad total",
     description:
-      "Rutinas, sensores y avisos que ayudan a cuidar la casa cuando estas adentro o afuera.",
+      "Controlá tu casa, revisá cámaras y comprobá que todo está bien, en cualquier momento y lugar.",
     icon: LockKeyhole,
-  },
-  {
-    title: "Proyecto ampliable",
-    description:
-      "Se puede empezar por un ambiente y crecer por etapas sin rehacer todo desde cero.",
-    icon: PanelTop,
   },
 ];
 
 export const environments = [
   {
     title: "Living",
-    copy: "Escenas de cine, reuniones, lectura y llegada a casa.",
+    copy: "Cambiá el clima de una reunión o un momento de cine con un solo toque desde tu sillón.",
   },
   {
     title: "Dormitorio",
-    copy: "Despertar gradual, apagado general y climatizacion nocturna.",
+    copy: "Despertá de forma natural con luces graduales y climatización perfecta para el mejor descanso.",
   },
   {
     title: "Exterior",
-    copy: "Luces, camaras, portones, sensores y riego programado.",
+    copy: "Disfrutá más tu jardín de noche y reducí el uso de agua con riego que sabe cuándo llueve.",
   },
   {
     title: "Cocina",
-    copy: "Iluminacion por zonas, seguridad y rutinas de consumo.",
+    copy: "Iluminación intensa para cocinar y luces cálidas para cenar, cambiando al instante.",
   },
   {
     title: "Oficina",
-    copy: "Luz de trabajo, climatizacion y escenas para videollamadas.",
+    copy: "Entornos que favorecen la concentración y reuniones con una iluminación profesional.",
   },
   {
     title: "Accesos",
-    copy: "Aperturas, avisos, cerraduras y luces de bienvenida.",
+    copy: "Llegar a casa de noche y que se encienda un pasillo cálido para darte la bienvenida.",
   },
 ];
 
 export const processSteps = [
   {
-    title: "1. Consulta",
+    title: "1. Diagnóstico",
     description:
-      "Entendemos que queres automatizar, que problemas queres resolver y en que zona esta la propiedad.",
+      "Entendemos cómo funciona tu casa y dónde están las fugas de energía y confort, sin prometerte cosas que no necesitas.",
   },
   {
-    title: "2. Relevamiento",
+    title: "2. Diseño Eficiente",
     description:
-      "Se revisa instalacion electrica, ambientes, conectividad y posibilidades reales sin prometer de mas.",
+      "Armamos un proyecto a tu medida (nueva o retrofit) enfocado 100% en mejorar tu calidad de vida diaria.",
   },
   {
-    title: "3. Propuesta",
+    title: "3. Instalación Impecable",
     description:
-      "Recibis una solucion por etapas, con prioridades claras y componentes adecuados al presupuesto.",
+      "Ejecutamos el trabajo con estándares de arquitectura premium, trabajando limpios y cuidando cada detalle de tu propiedad.",
   },
   {
-    title: "4. Instalacion",
+    title: "4. Seguimiento",
     description:
-      "Area N instala, configura escenas, prueba funcionamiento y deja el sistema listo para usar.",
-  },
-  {
-    title: "5. Soporte",
-    description:
-      "Te explicamos como usarlo y dejamos preparado el camino para futuras ampliaciones.",
+      "Te enseñamos a aprovechar todo el potencial del sistema y te brindamos soporte para que estés siempre tranquilo.",
   },
 ];
 
 export const faqItems = [
   {
-    question: "Necesito permisos de obra del municipio?",
+    question: "¿Necesito permisos de obra del municipio?",
     answer:
-      "No para instalaciones domoticas estandar. Si el proyecto requiere una reforma electrica mayor, se evalua antes de avanzar y se define el alcance correcto.",
+      "Generalmente no. Hacemos las instalaciones de forma limpia y enfocadas en la eficiencia de lo que ya tienes. Solo si hay una reforma estructural lo evaluamos antes.",
   },
   {
-    question: "Se puede instalar domotica en una casa ya construida?",
+    question: "¿Se puede hacer esto en una casa ya construida?",
     answer:
-      "Si. Muchas automatizaciones se integran sobre instalaciones existentes. Primero se revisa el tablero, el cableado y el objetivo del cliente para evitar obra innecesaria.",
+      "¡Por supuesto! El retrofit tecnológico es nuestra especialidad. Convertimos casas antiguas en hogares modernos e inteligentes minimizando las roturas.",
   },
   {
-    question: "Hay que romper paredes?",
+    question: "¿Es verdad que la automatización baja mis facturas?",
     answer:
-      "No necesariamente. Hay soluciones cableadas e inalambricas. La recomendacion depende de la propiedad, la seguridad requerida y el nivel de terminacion esperado.",
+      "Sí. Al no gastar energía enfriando o calentando ambientes cuando no estás, y aprovechando mejor el aislamiento y la luz solar, vas a pagar menos cada mes.",
   },
   {
-    question: "Que pasa si se corta internet?",
+    question: "¿Hay que romper paredes?",
     answer:
-      "Las funciones basicas pueden seguir operando localmente segun el sistema elegido. Si se corta la luz, como en cualquier instalacion electrica, los equipos dependen de que vuelva la energia.",
+      "No necesariamente. Usamos mucha tecnología inalámbrica y diseños pasivos. Nuestro objetivo es que la tecnología se integre de forma invisible.",
   },
   {
-    question: "Puedo empezar con pocas cosas y ampliar despues?",
+    question: "¿Puedo empezar de a poco?",
     answer:
-      "Si. De hecho suele ser lo mas conveniente: empezar por iluminacion, seguridad o un ambiente critico, y dejar una arquitectura preparada para crecer.",
+      "Es lo más recomendable. Podes empezar por el living o la climatización general, y luego ir escalando el confort al resto de tu vivienda.",
   },
   {
-    question: "Es compatible con Alexa o Google Home?",
+    question: "¿Es seguro tener la casa en el celular?",
     answer:
-      "Puede serlo. Area N define la compatibilidad segun el sistema, la red disponible, la privacidad deseada y el presupuesto del proyecto.",
-  },
-  {
-    question: "La domotica consume mas energia?",
-    answer:
-      "El consumo de los modulos suele ser bajo y muchas automatizaciones ayudan a apagar luces, regular climatizacion y evitar consumos innecesarios.",
-  },
-  {
-    question: "Es seguro conectar la casa a una app?",
-    answer:
-      "La seguridad depende de la instalacion, la red y la configuracion. Por eso se trabaja con criterio electrico, contrasenas fuertes y separacion de accesos cuando corresponde.",
-  },
-  {
-    question: "Trabajan solo en CABA y GBA?",
-    answer:
-      "La cobertura principal es CABA y GBA. Para proyectos grandes se puede evaluar trabajo en otras zonas de Argentina.",
-  },
-  {
-    question: "Quien realiza el proyecto?",
-    answer:
-      "Area N esta liderada por Ignacio Narea, con formacion tecnica, perfil de ingenieria y experiencia electrica aplicada a hogares inteligentes.",
+      "Es mucho más seguro que un hogar tradicional. Usamos encriptación y sistemas que incluso te avisan si te dejaste una puerta abierta.",
   },
 ];
 
 export const seoKeywords = [
-  "domotica CABA",
-  "domotica GBA",
-  "automatizacion del hogar",
-  "casa inteligente",
-  "iluminacion inteligente",
-  "electricista domotica",
-  "instalacion domotica Buenos Aires",
-  "smart home Argentina",
+  "viviendas eficientes",
+  "casas inteligentes premium",
+  "ahorro energetico arquitectura",
+  "domotica sin obra",
+  "retrofit argentina",
+  "eficiencia termica residencial",
+  "smart home status",
+  "confort termico",
 ];
 
 export const semAngles = [
-  { icon: Zap, title: "Quiero automatizar luces" },
-  { icon: Camera, title: "Quiero sumar seguridad" },
-  { icon: BellRing, title: "Quiero avisos y sensores" },
-  { icon: Sprout, title: "Quiero controlar exterior/riego" },
+  { icon: Zap, title: "Quiero gastar menos en luz" },
+  { icon: Camera, title: "Quiero vivir más tranquilo" },
+  { icon: Fan, title: "No quiero pasar más calor" },
+  { icon: Smartphone, title: "Quiero una casa moderna" },
 ];
 
 export const sustainableFeatures = [
   {
-    title: "Aislación Térmica",
+    title: "Reducí tu factura",
     description:
-      "Materiales y diseño orientados a conservar la temperatura ideal, reduciendo el gasto en climatización.",
+      "Sistemas de aislación que mantienen tu casa fresca en verano y cálida en invierno, sin forzar los aires acondicionados.",
     icon: Thermometer,
   },
   {
-    title: "Generación Limpia",
+    title: "Independencia Energética",
     description:
-      "Integración estética de paneles solares y sistemas de almacenamiento para mayor autonomía energética.",
+      "Generá tu propia energía limpia con paneles estéticos que elevan el valor de tu propiedad en lugar de arruinar su fachada.",
     icon: Sun,
   },
   {
-    title: "Diseño Inteligente",
+    title: "Vivir Mejor",
     description:
-      "Estrategias pasivas que aprovechan la luz natural y ventilación cruzada sin perder confort.",
+      "Aprovechá la luz y el clima a tu favor, logrando un ambiente interior mucho más sano y agradable todos los días.",
     icon: Leaf,
   },
 ];
 
 export const landscapingFeatures = [
   {
-    title: "Iluminación Escenográfica",
+    title: "Exteriores de Status",
     description:
-      "Diseño lumínico que resalta la arquitectura y vegetación para disfrutar el exterior de noche.",
+      "Realzá la arquitectura de tu vivienda de noche con un diseño lumínico moderno que deslumbra.",
     icon: Lightbulb,
   },
   {
-    title: "Riego Automatizado",
+    title: "Ahorro de Agua",
     description:
-      "Sistemas conectados que optimizan el consumo de agua según el clima y la humedad del suelo.",
+      "Sistemas inteligentes que riegan tu jardín solamente cuando el clima y la humedad del suelo lo exigen.",
     icon: Droplets,
   },
   {
-    title: "Paisajismo Moderno",
+    title: "Armonía Visual",
     description:
-      "Plantas y diseño de exteriores que complementan el estilo de la vivienda de forma armoniosa.",
+      "Integramos la tecnología en el diseño para que pase desapercibida y todo luzca como una casa de revista.",
     icon: Sprout,
   },
 ];
