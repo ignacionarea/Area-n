@@ -116,7 +116,7 @@ export default function Home() {
         target="_blank"
         rel="noreferrer"
         aria-label="Escribir a Area N por WhatsApp"
-        className="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-wood text-graphite shadow-[0_0_34px_rgba(110,231,201,0.35)] transition hover:bg-emerald-200"
+        className="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-emerald-300 text-[#05221c] shadow-[0_0_34px_rgba(110,231,201,0.35)] transition hover:bg-emerald-200"
       >
         <MessageCircle className="h-6 w-6" aria-hidden="true" />
       </a>
@@ -146,7 +146,7 @@ function Header() {
           href={whatsappUrl}
           target="_blank"
           rel="noreferrer"
-          className="hidden h-11 items-center gap-2 rounded-full border border-wood/30 bg-white/[0.04] px-5 text-sm font-semibold text-white transition hover:border-wood/70 hover:bg-white/[0.08] sm:inline-flex"
+          className="hidden h-11 items-center gap-2 rounded-full border border-emerald-200/30 bg-white/[0.04] px-5 text-sm font-semibold text-white transition hover:border-emerald-200/70 hover:bg-white/[0.08] sm:inline-flex"
         >
           <MessageCircle className="h-4 w-4" aria-hidden="true" />
           WhatsApp
@@ -161,8 +161,8 @@ function Hero() {
     <section className="relative overflow-hidden">
       <LampContainer className="min-h-[760px] sm:min-h-[840px]">
         <div className="mx-auto flex max-w-5xl flex-col items-center pt-20 text-center sm:pt-0">
-          <div className="inline-flex items-center gap-2 rounded-full border border-wood/25 bg-white/[0.05] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-wood">
-            <Sparkles className="h-4 w-4 text-wood" aria-hidden="true" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200/25 bg-white/[0.05] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-100/85">
+            <Sparkles className="h-4 w-4 text-cyan-200" aria-hidden="true" />
             Viviendas eficientes e inteligentes
           </div>
           <h1 className="mt-7 max-w-4xl text-balance text-4xl font-semibold leading-[1.04] text-white sm:text-6xl lg:text-7xl">
@@ -176,7 +176,7 @@ function Hero() {
               href={whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex h-13 w-full items-center justify-center gap-2 rounded-full bg-wood px-7 text-sm font-semibold text-graphite shadow-[0_0_34px_rgba(110,231,201,0.3)] transition hover:bg-emerald-200 sm:w-auto"
+              className="inline-flex h-13 w-full items-center justify-center gap-2 rounded-full bg-emerald-300 px-7 text-sm font-semibold text-[#05221c] shadow-[0_0_34px_rgba(110,231,201,0.3)] transition hover:bg-emerald-200 sm:w-auto"
             >
               <MessageCircle className="h-4 w-4" aria-hidden="true" />
               Pedir asesoramiento
@@ -200,7 +200,7 @@ function Hero() {
                 className="flex items-start gap-2 rounded-md border border-white/10 bg-white/[0.04] p-3 text-sm leading-6 text-white/70"
               >
                 <CheckCircle2
-                  className="mt-1 h-4 w-4 shrink-0 text-wood"
+                  className="mt-1 h-4 w-4 shrink-0 text-emerald-200"
                   aria-hidden="true"
                 />
                 {item}
