@@ -23,6 +23,8 @@ import {
   services,
   siteConfig,
   whatsappUrl,
+  sustainableFeatures,
+  landscapingFeatures,
 } from "@/lib/site";
 
 export default function Home() {
@@ -101,7 +103,9 @@ export default function Home() {
         <Showcase />
         <Services />
         <WhyAreaN />
+        <SustainableConstruction />
         <Environments />
+        <Landscaping />
         <Process />
         <CampaignBlock />
         <Faq />
@@ -577,5 +581,95 @@ function SectionIntro({
         {description}
       </p>
     </div>
+  );
+}
+
+function SustainableConstruction() {
+  return (
+    <section id="sustentabilidad" className="bg-[#04120f] py-20 lg:py-28">
+      <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-200">
+            Construcción Sustentable
+          </p>
+          <h2 className="mt-4 max-w-xl text-4xl font-semibold leading-tight text-white sm:text-5xl">
+            Eficiencia térmica y energética integrada.
+          </h2>
+          <p className="mt-5 max-w-xl text-lg leading-8 text-white/72">
+            No se trata solo de automatizar, sino de optimizar el consumo desde el diseño y los materiales. Unimos tecnología y sustentabilidad para hogares realmente eficientes.
+          </p>
+          <div className="mt-7 grid gap-6">
+            {sustainableFeatures.map((item) => {
+              const Icon = item.icon;
+              return (
+                <div key={item.title} className="flex items-start gap-4">
+                  <div className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-emerald-300/10 text-emerald-200">
+                    <Icon className="h-5 w-5" aria-hidden="true" />
+                  </div>
+                  <div>
+                    <h3 className="text-base font-semibold text-white">{item.title}</h3>
+                    <p className="mt-1 text-sm leading-6 text-white/60">{item.description}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className="relative aspect-[16/10] overflow-hidden rounded-md shadow-2xl shadow-emerald-900/10">
+          <Image
+            src="/images/sustainable-home.png"
+            alt="Casa moderna con diseño sustentable, paneles solares y eficiencia térmica"
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className="object-cover"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Landscaping() {
+  return (
+    <section id="paisajismo" className="bg-[#10231f] py-20 lg:py-28">
+      <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+        <div className="relative aspect-[16/10] overflow-hidden rounded-md shadow-2xl shadow-black/30 order-2 lg:order-1">
+          <Image
+            src="/images/landscaping-lighting.png"
+            alt="Jardín moderno con iluminación arquitectónica y riego automatizado"
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className="object-cover"
+          />
+        </div>
+        <div className="order-1 lg:order-2">
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-300">
+            Paisajismo e Iluminación
+          </p>
+          <h2 className="mt-4 max-w-xl text-4xl font-semibold leading-tight text-white sm:text-5xl">
+            Exteriores que cobran vida de noche.
+          </h2>
+          <p className="mt-5 max-w-xl text-lg leading-8 text-white/72">
+            Extendemos la experiencia de tu hogar hacia el exterior. Con iluminación escenográfica y control inteligente, tu jardín se convierte en un ambiente más.
+          </p>
+          <div className="mt-7 grid gap-6">
+            {landscapingFeatures.map((item) => {
+              const Icon = item.icon;
+              return (
+                <div key={item.title} className="flex items-start gap-4">
+                  <div className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-white/10 bg-white/5 text-emerald-200">
+                    <Icon className="h-5 w-5" aria-hidden="true" />
+                  </div>
+                  <div>
+                    <h3 className="text-base font-semibold text-white">{item.title}</h3>
+                    <p className="mt-1 text-sm leading-6 text-white/60">{item.description}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }

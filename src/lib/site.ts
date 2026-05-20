@@ -14,6 +14,10 @@ import {
   Smartphone,
   Sprout,
   Zap,
+  Sun,
+  Thermometer,
+  Leaf,
+  Droplets,
 } from "lucide-react";
 
 export const siteConfig = {
@@ -36,6 +40,8 @@ export const whatsappUrl = `https://wa.me/${siteConfig.phoneRaw.replace(
 
 export const navItems = [
   { href: "#soluciones", label: "Soluciones" },
+  { href: "#sustentabilidad", label: "Sustentabilidad" },
+  { href: "#paisajismo", label: "Paisajismo" },
   { href: "#proceso", label: "Proceso" },
   { href: "#faq", label: "Preguntas" },
   { href: "#contacto", label: "Contacto" },
@@ -237,4 +243,46 @@ export const semAngles = [
   { icon: Camera, title: "Quiero sumar seguridad" },
   { icon: BellRing, title: "Quiero avisos y sensores" },
   { icon: Sprout, title: "Quiero controlar exterior/riego" },
+];
+
+export const sustainableFeatures = [
+  {
+    title: "Aislación Térmica",
+    description:
+      "Materiales y diseño orientados a conservar la temperatura ideal, reduciendo el gasto en climatización.",
+    icon: Thermometer,
+  },
+  {
+    title: "Generación Limpia",
+    description:
+      "Integración estética de paneles solares y sistemas de almacenamiento para mayor autonomía energética.",
+    icon: Sun,
+  },
+  {
+    title: "Diseño Inteligente",
+    description:
+      "Estrategias pasivas que aprovechan la luz natural y ventilación cruzada sin perder confort.",
+    icon: Leaf,
+  },
+];
+
+export const landscapingFeatures = [
+  {
+    title: "Iluminación Escenográfica",
+    description:
+      "Diseño lumínico que resalta la arquitectura y vegetación para disfrutar el exterior de noche.",
+    icon: Lightbulb,
+  },
+  {
+    title: "Riego Automatizado",
+    description:
+      "Sistemas conectados que optimizan el consumo de agua según el clima y la humedad del suelo.",
+    icon: Droplets,
+  },
+  {
+    title: "Paisajismo Moderno",
+    description:
+      "Plantas y diseño de exteriores que complementan el estilo de la vivienda de forma armoniosa.",
+    icon: Sprout,
+  },
 ];
