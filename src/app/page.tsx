@@ -166,7 +166,7 @@ function Hero() {
             Domotica residencial en CABA y GBA
           </div>
           <h1 className="mt-7 max-w-4xl text-balance text-4xl font-semibold leading-[1.04] text-white sm:text-6xl lg:text-7xl">
-            Tu casa, automatizada con criterio electrico profesional.
+            Tu casa automatizada y sustentable, con criterio electrico profesional.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-white/72 sm:text-xl">
             Area N diseña e instala sistemas de domotica para iluminacion,
