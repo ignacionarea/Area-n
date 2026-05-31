@@ -191,9 +191,9 @@ export const faqItems = [
       "Totalmente. El 'retrofit' o modernización es una de nuestras especialidades. Elevamos el estándar de casas antiguas o recién compradas, integrando diseño contemporáneo y tecnología minimizando las intervenciones invasivas.",
   },
   {
-    question: "¿Qué diferencia hay entre su servicio y comprar dispositivos inteligentes por mi cuenta?",
+    question: "¿Qué pasa si decido vender mi casa en un futuro?",
     answer:
-      "La diferencia es la infraestructura. Un dispositivo suelto (como una lámpara Wi-Fi) es un parche temporal que suele tener problemas de conexión. Nosotros diseñamos e instalamos el 'cerebro' centralizado de la casa, logrando una integración robusta, estética y sin fallas.",
+      "Toda la infraestructura instalada incrementa el valor de tasación de tu propiedad, diferenciándola en el mercado. Al momento de la venta, el sistema se transfiere fácilmente a los nuevos dueños, entregando una casa moderna, eficiente y lista para disfrutar.",
   },
   {
     question: "¿Toda esta tecnología no hace que la casa sea complicada de usar?",
