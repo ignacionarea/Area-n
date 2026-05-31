@@ -191,19 +191,19 @@ export const faqItems = [
       "Totalmente. El 'retrofit' o modernización es una de nuestras especialidades. Elevamos el estándar de casas antiguas o recién compradas, integrando diseño contemporáneo y tecnología minimizando las intervenciones invasivas.",
   },
   {
-    question: "¿Es realmente una inversión rentable?",
+    question: "¿Trabajan en conjunto con mi arquitecto o decorador?",
     answer:
-      "Absolutamente. Más allá de la enorme mejora en tu calidad de vida diaria, un diseño térmico eficiente sumado a una gestión inteligente de la energía reduce drásticamente los consumos mensuales y aumenta inmediatamente el valor de mercado de tu propiedad.",
+      "Sí. Nos sumamos a tu equipo de obra desde el primer día. Trabajamos a la par de tu arquitecto para asegurar que las instalaciones y la tecnología no interfieran con la estética, sino que potencien el diseño interior.",
   },
   {
-    question: "¿Trabajan con presupuestos cerrados?",
+    question: "¿Toda esta tecnología no hace que la casa sea complicada de usar?",
     answer:
-      "Sí. Realizamos un diagnóstico inicial muy riguroso que nos permite presupuestar con precisión. Nuestro objetivo es darte previsibilidad total sobre la inversión, sin los típicos 'imprevistos' que suelen aparecer en las obras tradicionales.",
+      "Al contrario, el verdadero lujo es la simplicidad. Diseñamos sistemas tan intuitivos que la casa funciona prácticamente sola, eliminando la necesidad de lidiar con decenas de controles remotos o teclados confusos.",
   },
   {
-    question: "¿Ofrecen soporte una vez finalizado el proyecto?",
+    question: "¿El sistema instalado puede quedar obsoleto rápido?",
     answer:
-      "Por supuesto. Ejecutamos bajo estrictos estándares de ingeniería y te acompañamos después de la entrega de llaves. Te garantizamos que la transición a tu nueva casa sea perfecta y cuentas con nuestro respaldo técnico permanente.",
+      "Utilizamos estándares abiertos y equipamiento de grado profesional (no 'gadgets' descartables). Tu infraestructura eléctrica y de automatización quedará preparada para escalar y adoptar nuevas tecnologías durante décadas.",
   },
 ];
 
