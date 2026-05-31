@@ -519,7 +519,7 @@ function Contact() {
             </a>
             <p className="flex items-center gap-3">
               <MapPin className="h-5 w-5 text-wood" />
-              CABA y GBA. Proyectos grandes en otras zonas de Argentina.
+              CABA y GBA. Diseño y ejecución de proyectos donde lo necesites.
             </p>
           </div>
         </div>
