@@ -191,9 +191,9 @@ export const faqItems = [
       "Totalmente. El 'retrofit' o modernización es una de nuestras especialidades. Elevamos el estándar de casas antiguas o recién compradas, integrando diseño contemporáneo y tecnología minimizando las intervenciones invasivas.",
   },
   {
-    question: "¿Trabajan en conjunto con mi arquitecto o decorador?",
+    question: "¿Qué diferencia hay entre su servicio y comprar dispositivos inteligentes por mi cuenta?",
     answer:
-      "Sí. Nos sumamos a tu equipo de obra desde el primer día. Trabajamos a la par de tu arquitecto para asegurar que las instalaciones y la tecnología no interfieran con la estética, sino que potencien el diseño interior.",
+      "La diferencia es la infraestructura. Un dispositivo suelto (como una lámpara Wi-Fi) es un parche temporal que suele tener problemas de conexión. Nosotros diseñamos e instalamos el 'cerebro' centralizado de la casa, logrando una integración robusta, estética y sin fallas.",
   },
   {
     question: "¿Toda esta tecnología no hace que la casa sea complicada de usar?",
