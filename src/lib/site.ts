@@ -176,34 +176,34 @@ export const processSteps = [
 
 export const faqItems = [
   {
-    question: "¿Necesito permisos de obra del municipio?",
+    question: "¿En qué etapa de la obra conviene contactarlos?",
     answer:
-      "Generalmente no. Hacemos las instalaciones de forma limpia y enfocadas en la eficiencia de lo que ya tienes. Solo si hay una reforma estructural lo evaluamos antes.",
+      "Lo ideal es involucrarnos desde la etapa de anteproyecto o planos. Esto nos permite diseñar la infraestructura (eléctrica, térmica y tecnológica) de forma invisible, integrando soluciones eficientes a la arquitectura original sin generar sobrecostos posteriores.",
   },
   {
-    question: "¿Se puede hacer esto en una casa ya construida?",
+    question: "¿Hacen el proyecto integral o solo instalan tecnología?",
     answer:
-      "¡Por supuesto! El retrofit tecnológico es nuestra especialidad. Convertimos casas antiguas en hogares modernos e inteligentes minimizando las roturas.",
+      "Abarcamos el proyecto completo. Desde la reforma arquitectónica, el cálculo de iluminación y el paisajismo exterior, hasta la instalación eléctrica y la automatización final. Diseñamos la solución integral para que no tengas que lidiar con múltiples proveedores.",
   },
   {
-    question: "¿Es verdad que la automatización baja mis facturas?",
+    question: "¿Se puede aplicar este nivel de diseño en una casa ya construida?",
     answer:
-      "Sí. Al no gastar energía enfriando o calentando ambientes cuando no estás, y aprovechando mejor el aislamiento y la luz solar, vas a pagar menos cada mes.",
+      "Totalmente. El 'retrofit' o modernización es una de nuestras especialidades. Elevamos el estándar de casas antiguas o recién compradas, integrando diseño contemporáneo y tecnología minimizando las intervenciones invasivas.",
   },
   {
-    question: "¿Hay que romper paredes?",
+    question: "¿Es realmente una inversión rentable?",
     answer:
-      "No necesariamente. Usamos mucha tecnología inalámbrica y diseños pasivos. Nuestro objetivo es que la tecnología se integre de forma invisible.",
+      "Absolutamente. Más allá de la enorme mejora en tu calidad de vida diaria, un diseño térmico eficiente sumado a una gestión inteligente de la energía reduce drásticamente los consumos mensuales y aumenta inmediatamente el valor de mercado de tu propiedad.",
   },
   {
-    question: "¿Puedo empezar de a poco?",
+    question: "¿Trabajan con presupuestos cerrados?",
     answer:
-      "Es lo más recomendable. Podes empezar por el living o la climatización general, y luego ir escalando el confort al resto de tu vivienda.",
+      "Sí. Realizamos un diagnóstico inicial muy riguroso que nos permite presupuestar con precisión. Nuestro objetivo es darte previsibilidad total sobre la inversión, sin los típicos 'imprevistos' que suelen aparecer en las obras tradicionales.",
   },
   {
-    question: "¿Es seguro tener la casa en el celular?",
+    question: "¿Ofrecen soporte una vez finalizado el proyecto?",
     answer:
-      "Es mucho más seguro que un hogar tradicional. Usamos encriptación y sistemas que incluso te avisan si te dejaste una puerta abierta.",
+      "Por supuesto. Ejecutamos bajo estrictos estándares de ingeniería y te acompañamos después de la entrega de llaves. Te garantizamos que la transición a tu nueva casa sea perfecta y cuentas con nuestro respaldo técnico permanente.",
   },
 ];
 

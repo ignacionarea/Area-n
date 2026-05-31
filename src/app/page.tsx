@@ -458,8 +458,8 @@ function Faq() {
     <section id="faq" className="bg-graphite-light py-20 lg:py-28">
       <SectionIntro
         eyebrow="Preguntas frecuentes"
-        title="Lo que suele preocupar antes de instalar domotica."
-        description="Respuestas pensadas para dueños de casas, departamentos y PH que quieren automatizar sin meterse en una obra innecesaria."
+        title="Claridad y previsibilidad para tu proyecto."
+        description="Respuestas directas sobre cómo trabajamos, los tiempos de ejecución y cómo garantizamos resultados de alto nivel sin dolores de cabeza."
       />
       <div className="mx-auto mt-12 grid max-w-4xl gap-3 px-5 lg:px-8">
         {faqItems.map((item) => (
