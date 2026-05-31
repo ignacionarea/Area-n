@@ -169,7 +169,7 @@ function Hero() {
             Tu casa eficiente e inteligente, diseñada para vivir mejor.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-white/72 sm:text-xl">
-            Área N diseña, automatiza y moderniza viviendas en CABA y GBA para que gastes menos energía, no sufras el clima y vivas con el confort que te merecés.
+            Área N diseña, automatiza, reforma y moderniza viviendas para que gastes menos energía, no sufras el clima y vivas con el confort que te merecés.
           </p>
           <div className="mt-9 flex w-full flex-col items-center justify-center gap-3 sm:w-auto sm:flex-row">
             <a
@@ -191,8 +191,8 @@ function Hero() {
           </div>
           <div className="mt-9 grid w-full max-w-3xl gap-3 text-left sm:grid-cols-3">
             {[
-              "Pagá menos todos los meses",
-              "Aumentá el valor de tu propiedad",
+              "Pagá lo justo todos los meses",
+              "Aumentá el valor de tu propiedad y mejorá tu calidad de vida",
               "Arquitectura y tecnología premium",
             ].map((item) => (
               <div
@@ -333,7 +333,7 @@ function WhyAreaN() {
         </div>
         <div className="grid gap-5 text-white/72">
           <p className="text-lg leading-8">
-            Área N está liderada por Ignacio Narea, especialista con perfil de ingeniería y foco en arquitectura premium. Cambiamos la conversación: en lugar de venderte luces y sensores sueltos, diseñamos la solución integral para que vivas mejor.
+            Detrás de Área N se encuentra Ignacio Narea, aportando una visión técnica rigurosa y un perfil de ingeniería orientado a la arquitectura premium. Nuestra propuesta de valor nos distingue de la competencia: no nos limitamos a instalar tecnología aislada; proyectamos e integramos infraestructuras completas que elevan el estándar, la eficiencia y el confort de tu propiedad.
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {[
