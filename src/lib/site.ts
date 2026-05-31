@@ -94,7 +94,7 @@ export const services: Service[] = [
 
 export const benefits = [
   {
-    title: "Pagá menos todos los meses",
+    title: "Pagá lo justo todos los meses",
     description:
       "Unimos diseño térmico y automatización para reducir drásticamente el costo de climatización y energía.",
     icon: Zap,
