@@ -201,11 +201,6 @@ export const faqItems = [
       "Al contrario, el verdadero lujo es la simplicidad. Diseñamos sistemas tan intuitivos que la casa funciona prácticamente sola, eliminando la necesidad de lidiar con decenas de controles remotos o teclados confusos.",
   },
   {
-    question: "¿El sistema instalado puede quedar obsoleto rápido?",
-    answer:
-      "Utilizamos estándares abiertos y equipamiento de grado profesional (no 'gadgets' descartables). Tu infraestructura eléctrica y de automatización quedará preparada para escalar y adoptar nuevas tecnologías durante décadas.",
-  },
-  {
     question: "¿Puedo empezar por una etapa inicial e ir sumando funciones después?",
     answer:
       "Sí. Diseñamos con un enfoque 100% escalable. Podemos empezar por centralizar áreas clave como la iluminación social o el jardín, y en el futuro integrar climatización, persianas o seguridad bajo el mismo ecosistema, sin necesidad de rehacer trabajos.",
