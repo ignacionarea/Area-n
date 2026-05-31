@@ -158,7 +158,7 @@ export const processSteps = [
       "Armamos un proyecto a tu medida (nueva o retrofit) enfocado 100% en mejorar tu calidad de vida diaria.",
   },
   {
-    title: "3. Instalación Impecable",
+    title: "3. Instalación",
     description:
       "Ejecutamos el trabajo con estándares de arquitectura premium, trabajando limpios y cuidando cada detalle de tu propiedad.",
   },
