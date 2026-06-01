@@ -87,7 +87,7 @@ export const services: Service[] = [
   {
     title: "Reducción de Consumos",
     description:
-      "Reducí el gasto de agua y luz automatizando el riego y aprovechando al máximo la iluminación natural.",
+      "Reducí el gasto de electricidad automatizando el riego y aprovechando al máximo la iluminación natural.",
     icon: Sprout,
   },
 ];
