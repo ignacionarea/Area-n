@@ -69,7 +69,7 @@ export const services: Service[] = [
   {
     title: "Climatización Automática",
     description:
-      "Olvidate de pasar frío o calor. Tu casa mantiene la temperatura ideal sola, para que vivas mejor y pagues menos luz.",
+      "Olvidate de pasar frío o calor. Tu casa mantiene la temperatura ideal sola, para que vivas mejor y pagues menos por los servicios.",
     icon: Fan,
   },
   {
