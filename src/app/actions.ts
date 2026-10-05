@@ -80,7 +80,7 @@ export async function sendContactMessage(
     return {
       status: "error",
       message:
-        "El formulario esta listo, pero falta configurar RESEND_API_KEY. Mientras tanto escribinos por WhatsApp o a area.n@gmail.com.",
+        "El formulario esta listo, pero falta configurar RESEND_API_KEY. Mientras tanto escribinos por WhatsApp o a areanconstrucciones@gmail.com.",
     };
   }
 

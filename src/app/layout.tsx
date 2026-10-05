@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default:
-      "Area N | Domotica residencial, iluminacion inteligente y seguridad en CABA y GBA",
+      "Area N | Viviendas eficientes e inteligentes | Arquitectura y Domótica",
     template: "%s | Area N",
   },
   description:
-    "Area N disena e instala domotica para hogares en CABA y GBA: iluminacion inteligente, seguridad, climatizacion, escenas, sensores y automatizacion electrica profesional.",
+    "Área N diseña, automatiza, reforma y moderniza viviendas para que gastes menos energía, no sufras el clima y vivas con el confort que te merecés.",
   keywords: seoKeywords,
   applicationName: "Area N",
   authors: [{ name: "Area N" }],
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Area N | Domotica para hogares en CABA y GBA",
+    title: "Area N | Viviendas eficientes e inteligentes",
     description:
-      "Automatizacion del hogar con criterio electrico profesional. Luces, seguridad, climatizacion, escenas y control desde el celular.",
+      "Diseño, automatización, retrofit y modernización de viviendas con criterio eléctrico y arquitectónico profesional.",
     url: siteConfig.url,
     siteName: "Area N",
     locale: "es_AR",
@@ -43,15 +43,15 @@ export const metadata: Metadata = {
         url: "/images/smart-home-living-room.png",
         width: 1792,
         height: 1024,
-        alt: "Living moderno con iluminacion inteligente y control domotico",
+        alt: "Living moderno con iluminación inteligente y control domótico",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Area N | Domotica para hogares en CABA y GBA",
+    title: "Area N | Viviendas eficientes e inteligentes",
     description:
-      "Automatizacion del hogar, iluminacion inteligente y seguridad residencial.",
+      "Diseño, automatización, retrofit y modernización de viviendas con criterio eléctrico profesional.",
     images: ["/images/smart-home-living-room.png"],
   },
   robots: {

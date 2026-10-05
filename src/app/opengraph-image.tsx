@@ -61,10 +61,10 @@ export default function Image() {
           }}
         >
           <div style={{ color: "#a7f3d0", fontSize: 28, marginBottom: 20 }}>
-            Domotica residencial en CABA y GBA
+            Viviendas eficientes e inteligentes
           </div>
           <div style={{ maxWidth: 900, fontSize: 72, lineHeight: 1.02 }}>
-            Hogares inteligentes con criterio electrico profesional.
+            Tu casa inteligente, diseñada para vivir mejor.
           </div>
         </div>
       </div>

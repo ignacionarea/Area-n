@@ -1,6 +1,4 @@
 import {
-  BellRing,
-  Blinds,
   Cable,
   Camera,
   Fan,
@@ -8,7 +6,6 @@ import {
   Lightbulb,
   LockKeyhole,
   LucideIcon,
-  PanelTop,
   Router,
   ShieldCheck,
   Smartphone,
@@ -22,8 +19,8 @@ import {
 
 export const siteConfig = {
   name: "Area N",
-  domain: "area-n.com",
-  url: "https://area-n.com",
+  domain: "area-n.com.ar",
+  url: "https://www.area-n.com.ar",
   email: "areanconstrucciones@gmail.com",
   phone: "+54 9 11 2835-1181",
   phoneRaw: "+5491128351181",
