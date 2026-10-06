@@ -37,6 +37,7 @@ export default function Home() {
       email: siteConfig.email,
       telephone: siteConfig.phone,
       image: `${siteConfig.url}/images/smart-home-living-room.png`,
+      logo: `${siteConfig.url}/icon.png`,
       founder: {
         "@type": "Person",
         name: siteConfig.founder,
