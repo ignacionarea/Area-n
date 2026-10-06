@@ -25,7 +25,11 @@ export const siteConfig = {
   phone: "+54 9 11 2835-1181",
   phoneRaw: "+5491128351181",
   founder: "Ignacio Narea",
-  areaServed: "CABA y GBA",
+  areaServed: "Canning, Saint Thomas, CABA, GBA y proyectos a distancia",
+  social: {
+    instagram: "https://www.instagram.com/areanconstrucciones/",
+    linkedin: "https://www.linkedin.com/company/126163980/",
+  },
   whatsappMessage:
     "Hola Area N, quiero asesoramiento para automatizar mi casa.",
 };
@@ -207,10 +211,18 @@ export const faqItems = [
 export const seoKeywords = [
   "viviendas eficientes",
   "casas inteligentes premium",
-  "ahorro energetico arquitectura",
-  "domotica sin obra",
+  "domotica canning",
+  "domotica saint thomas",
+  "automatizacion casas canning",
   "retrofit argentina",
+  "reformas inteligentes countries",
   "eficiencia termica residencial",
+  "instalaciones electricas canning",
+  "domotica nordelta",
+  "domotica buenos aires",
+  "casas inteligentes zona sur",
+  "arquitectura y tecnologia",
+  "ahorro energetico arquitectura",
   "smart home status",
   "confort termico",
 ];

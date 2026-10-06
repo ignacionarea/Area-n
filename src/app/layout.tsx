@@ -62,6 +62,12 @@ export const metadata: Metadata = {
   verification: {
     google: "kHafzmOPiBZ_gjLmXDcmGFqmrK-s0oeS3h8eYKtDK6o",
   },
+  other: {
+    "geo.region": "AR-B",
+    "geo.placename": "Buenos Aires, Canning, CABA",
+    "geo.position": "-34.8778;-58.5028",
+    ICBM: "-34.8778, -58.5028",
+  },
 };
 
 export default function RootLayout({
